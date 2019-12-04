@@ -210,6 +210,11 @@ header nav ul li {
 /*Main Hero Area*/
 
 .hero-area {
+  background-image: url('../img/lady-trees.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
