@@ -290,7 +290,7 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin: 30px 0 30px 0;
 }
 
 .features article {
@@ -305,7 +305,7 @@ input[type=button] {
 
 .features i {
   font-size: 3.75em;
-  margin-bottom: 40px;
+  margin: 25px 0 25px 0
 }
 
 /*Reviews*/
@@ -597,7 +597,7 @@ aside .content-wrapper .form-description,
 
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin: 25px 0 25px 0
 }
 
 .reviews figure {
