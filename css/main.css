@@ -140,11 +140,11 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -153,7 +153,7 @@ textarea {
 
    .content-wrapper {
      width: 90%;
-     margin: 50px 0;
+     margin: 25px 0;
    }
 /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -176,6 +176,14 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
   text-align: center;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -214,6 +222,7 @@ header nav ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 500px;
   background-color: #333;
   display: flex;
   justify-content: center;
@@ -260,6 +269,11 @@ input[type=button] {
 /*Features*/
 
 .features {
+  background-image: url('../img/campfire.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -294,6 +308,7 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
 }
+
 
 .reviews h2 {
   margin-bottom: 40px;
@@ -500,14 +515,17 @@ footer .copyright {
   /* General styles */
     .content-wrapper {
         max-width: 640px;
-        margin: 100px 0;
     }
 
   /*Header*/
 
-  header {
-    justify-content: space-around;
-  }
+header {
+  justify-content: space-around;
+}
+
+header figure {
+  width: 30%;
+}
 
 header .content-wrapper {
     width: 100%;
@@ -553,9 +571,16 @@ aside .content-wrapper .form-description,
   width: 50%;
 }
 
+.reviews figure {
+  width: 42%;
+
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
+
+
 }
 
 .reviews article div {
