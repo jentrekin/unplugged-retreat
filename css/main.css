@@ -587,6 +587,11 @@ aside .content-wrapper .form-description,
   width: 50%;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
+
 .reviews figure {
   width: 42%;
 
