@@ -113,6 +113,8 @@ textarea {
    ul,
    ol {
      list-style: none;
+     margin: 0;
+     padding: 0;
    }
 
    a {
@@ -124,6 +126,7 @@ textarea {
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
      font-weight: 500;
+     margin: 0;
    }
 
    h3,
@@ -175,7 +178,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 header figure {
@@ -205,9 +208,9 @@ header nav {
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 }
 
 header nav ul li {
@@ -300,6 +303,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 /*Reviews*/
 
 .reviews {
@@ -336,28 +344,28 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer .social-media {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
 footer .contact {
   margin-bottom: 50px;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-flow: row wrap;
-  list-style: none;
-
 }
 
-footer .social-icons a {
-  display: inline-block;
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-cons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -416,7 +424,7 @@ footer .copyright {
 
 .faq .content-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
@@ -615,14 +623,29 @@ footer .content-wrapper {
   margin: 100px 0;
 }
 
-.footer-content {
+footer .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .contact {
   margin-bottom: 0;
+}
+
+footer h4 {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+footer p {
+    line-height: 1.285;
+}
+
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
 }
 
 footer .copyright {
