@@ -215,6 +215,9 @@ header nav ul {
 
 header nav ul li {
   font-size: 1.125em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -620,12 +623,12 @@ aside .content-wrapper .form-description,
 
 footer .content-wrapper {
   width: 65%;
-  margin: 100px 0;
+  margin: 30px 0;
 }
 
 footer .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
 }
@@ -672,7 +675,7 @@ footer .copyright {
   }
 
   .contact-section .content-wrapper h2 {
-    width: 80%;
+    padding-bottom: 25px;
   }
 
   .contact-content {
